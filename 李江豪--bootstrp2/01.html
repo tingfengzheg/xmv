@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/01.css">
+
+</head>
+
+<body>
+  <!-- 头部开始 -->
+  <nav class="navbar navbar-inverse ">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"> <span
+            class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span
+            class="icon-bar"></span> </button>
+        <a class="logo" href="#"><img src="./imgss/logo.png" title="logo" alt="logo"></a>
+      </div>
+      <div class="col-lg-3 col-md-5 pull-right search">
+        <form action="/search" class="search-form form-inline">
+          <div class="form-group">
+            <input name="q" id="search" class="form-control" placeholder="Search..." value="" type="text">
+          </div>
+          <button class="btn btn-danger glyphicon glyphicon-search but_g" type="submit"><i class="fa fa-search"
+              aria-hidden="true"></i></button>
+        </form>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse nav_top">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="but_xia dropdown btn-group">
+            <a href="" id="dLabel" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">About<span class="caret"></span></a>
+            <ul class="dropdown-menu xia">
+              <li class=""><a href="#">License</a></li>
+              <li class=""><a href="#">Coaster
+                  Testimonials</a></li>
+              <li class=""><a href="#">Press/Media</a></li>
+            </ul>
+          </li>
+          <li class=""><a href="#">Demo</a></li>
+          <li class=""><a href="#">Download</a></li>
+          <li class="but_xia">
+            <a href="">Documentation<span class="caret"></span></a>
+            <ul class="dropdown-menu xia">
+              <li class=""><a href="#">User</a></li>
+              <li class=""><a href="#">Developer</a></li>
+            </ul>
+          </li>
+          <li class=""><a href="#">Support</a></li>
+          <li class=""><a href="#">Beacons</a></li>
+          <li class=""><a href="#">Blog</a></li>
+          <li class=""><a href="#">Contact</a></li>
+          <li class=""><a href="#">Agencies</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- 头部结束 -->
+
+
+  <!-- 主体介绍开始 -->
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row scrl">
+        <div class="col-sm-7">
+          <h1>The next generation of Content Management Systems</h1>
+          <h3>Add <i>context</i> to your content</h3>
+          <a href="#" class="btn btn-primary" style="margin-right: 10px">Demo</a>
+          <a href="#" class="btn btn-primary download"><i class="glyphicon glyphicon-download-alt"></i> Download</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="sec1 text-center" id="sec1">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 img-centered">
+          <a href="#"><img src="./imgss/ic2.png" title="Interaction on demand" alt="Interaction on demand"
+              class="img-responsive"></a>
+          <h3>Content</h3>
+          <p>Coaster was designed to be flexible, users can easily manage apparently complex website features with ease.
+          </p>
+        </div>
+        <div class="col-sm-4 img-centered">
+          <a href="#"><img src="./imgss/ic3.png" title="Extremely flexible" alt="Extremely flexible"
+              class="img-responsive"></a>
+          <h3>Space</h3>
+          <p>Easily manage Beacons to broadcast URLs promoting information and offers specific to a targeted location.
+          </p>
+        </div>
+        <div class="col-sm-4 img-centered">
+          <a href="#"><img src="./imgss/ic1.png" title="Easy to use" alt="Easy to use" class="img-responsive"></a>
+          <h3>Time</h3>
+          <p>Users can specify the time they want web pages to be displayed. It’s as simple as adding a meeting to a
+            calendar with Coaster CMS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="banner_1" id="sec1">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9 ">
+          <h2>Harness Time and Space with Coaster</h2>
+        </div>
+        <div class="col-sm-3 ">
+          <a href="#" class="btn btn-primary">Find out more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="sec2 darksec ">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-12">
+          <h2>CMS Comparison</h2>
+        </div>
+      </div>
+      <div class="table-responsive">
+        <table class="table table_homepage ">
+          <thead>
+            <tr>
+              <th>Features</th>
+              <th>Wordpress</th>
+              <th>Joomla</th>
+              <th><b>Coaster</b></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Unique "repeater" block feature for hugely flexible websites</td>
+              <td>no</td>
+              <td>no</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <td>Developer friendly</td>
+              <td>until plugin overload</td>
+              <td>no</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <td>Good for blogging</td>
+              <td>yes</td>
+              <td>no</td>
+              <td>yes (theme dependent)</td>
+            </tr>
+            <tr>
+              <td>Secure</td>
+              <td>if kept up to date</td>
+              <td>if kept up to date</td>
+              <td>if kept up to date</td>
+            </tr>
+            <tr>
+              <td>Beacon compatible</td>
+              <td>no</td>
+              <td>no</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <td>Time specific versions</td>
+              <td>No</td>
+              <td>No</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Built in SEO tools (automatic sitemap + 301 redirects)</td>
+              <td>with plugin</td>
+              <td>partial</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <td>Composer compatible</td>
+              <td>no</td>
+              <td>no</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <td>OOP Framework</td>
+              <td>partial</td>
+              <td>yes</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <td>Multiple menus</td>
+              <td>via additional work</td>
+              <td>yes</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <td>User friendly interface</td>
+              <td>yes</td>
+              <td>no</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <td>Single file manager</td>
+              <td>yes</td>
+              <td>yes</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <td>Versioning and publishing system</td>
+              <td>yes</td>
+              <td>yes</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <td>Contact Form</td>
+              <td>requires plugin</td>
+              <td>requires plugin</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <td>Content block types enable design consistency</td>
+              <td>no</td>
+              <td>yes</td>
+              <td>yes</td>
+            </tr>
+            <tr>
+              <td>Manage pages</td>
+              <td>secondary feature</td>
+              <td>yes</td>
+              <td>yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <section class="testimonial ">
+    <div class="container">
+      <div class="row text-center ">
+        <div class="col-sm-12">
+          <h2>What people say:</h2>
+        </div>
+      </div>
+      <!-- 轮播图开始 -->
+      <div id="testimonialscarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#testimonialscarousel" data-slide-to="0"></li>
+          <li data-target="#testimonialscarousel" data-slide-to="1" class="active"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="testwrapper">
+              <p>"I want to congratulate you for the excellent work you have done!"</p>
+            </div>
+            <div class="testwrapper">
+              <p>"Coaster CMS is so easy to pick up and use."</p>
+            </div>
+            <div class="testwrapper">
+              <p>"We are really happy with it! It's so easy to load everything onto it."</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testwrapper">
+              <p>"We did our research and Coaster CMS is our favorite, it is the best CMS based on Laravel out there on
+                the web."</p>
+            </div>
+            <div class="testwrapper">
+              <p>"I am so pleased with this site - I have had great feedback on it already."</p>
+            </div>
+            <div class="testwrapper">
+              <p>"It's the best CMS based on Laravel out there on the web."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 轮播图结束 -->
+    </div>
+
+  </section>
+  <section class="sec2 ">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-12">
+          <h2>For developers</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 img-centered"><img src="./imgss/product2_1.png"
+            title="product2 1" alt="product2 1" class="img-responsive"></div>
+        <div class="col-sm-5 morepadd">
+          <p>Coaster is a developer's and designer's best friend. The days of wandering aimlessly through thousands of
+            lines of code are finally gone (unless you want to). Coaster's block based templating model, built upon
+            Laravel 5's blade system, makes it easy to keep track of your pages.</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <p><a href="">Home</a> | <a href="">About Coaster CMS</a> | <a href="">Support</a> | <a href="">License</a> |
+            <a href="">Privacy Policy</a> | <a
+              href="#">Press/Media</a> | <a
+              href="#">Contact</a> | <a href="#">Blog</a>
+            | <a href="h#">Sitemap</a> | <a
+              href="#">Coaster Testimonials</a> </p>
+          <p>Unit 4, 1 School Lane, Chandler's Ford, Eastleigh, Southampton, Hampshire<br>
+            SO53 4DG</p>
+          <p>Accelerated by <a href="#">KeyCDN</a></p>
+        </div>
+        <div class="col-sm-4 text-right">
+          <p>© 2022 All rights reserved</p>
+          <p class="socialicons"><a title="Facebook" target="_blank"
+              href="#"><i class="glyphicon glyphicon-ice-lolly"></i></a> <a
+              title="Twitter" target="_blank" href="#"><i class="glyphicon glyphicon-hourglass"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- <script src="./js/01.js"></script> -->
+  <script async defer src="https://www.coastercms.org/themes/coaster/js/all.js"></script>
+  <!-- <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+
+</body>
+
+</html>
